@@ -1,21 +1,9 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+	font-family: 'Inter Regular';
+	src: url('../fonts/inter_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/inter_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/inter_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/inter_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/inter_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/inter_regular.svg#inter_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
